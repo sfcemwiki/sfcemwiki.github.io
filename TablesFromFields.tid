@@ -12,7 +12,7 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
 \define TableMacrosRowTableInnerInnerRows()
 <$list filter='$(RowList)$+[sort{$(TableMacrosMakeTableSortStateTiddler)$}]' variable=ThisTiddler>
   <tr>
-    <th>
+    <th align="left">
       <$link to=<<ThisTiddler>>>
 	    <<ThisTiddler>>
 	  </$link>
